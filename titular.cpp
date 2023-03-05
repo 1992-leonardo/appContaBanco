@@ -8,7 +8,7 @@ Titular::Titular(Cpf cpf, std::string nome): cpf(cpf), nome(nome)
 void Titular::verificaTamanhoDoNome()
 {
     if (nome.size() < 5) {
-        std::cout << "Nome muito curto" << std::endl;
+        std::cout << "App do LP" << std::endl;
         exit(1);
     }
 }
